@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		height: 10086px;
+	}
+	.div1 {
+		width: 300px;
+		height: 300px;
+		background-color: skyblue;
+		position: relative;
+		z-index: 1;
+
+
+	}
+	.div2 {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		position: fixed;
+		top: 50px;
+		left: 50px;
+		background-image: url(http://img4.imgtn.bdimg.com/it/u=3427178455,67207815&fm=27&gp=0.jpg);
+		background-size: 200px 200px;
+		z-index: 1;
+
+	}
+	.div2 a {
+		color: white;
+		text-decoration: none;
+	}
+	.div1-s {
+		width: 77px;
+		height: 88px;
+		background-color: green;
+		position: ;
+		margin: 50px;
+
+
+	}
+	.div1-s:hover {
+		display: none;
+	}
+	.demo {
+		width: 100px;
+		height: 60px;
+		background-color: black;
+		position: absolute;
+		top: 200px;
+	}
+
+
+	</style>
+</head>
+<body>
+<div class="div1">
+<div class="div1-s"></div>
+</div>
+<div class="demo"></div>
+<div class="div2"> <a href="#">屠龙宝刀，点击就送</a></div>
+</body>
+</html>
